@@ -1,0 +1,14 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.codete.geoquiz.ThirdScreenFragment">
+
+    <ImageView
+        android:id="@+id/downloaded_img"
+        android:layout_width="@dimen/photo_width"
+        android:layout_height="@dimen/photo_height"
+        android:layout_gravity="center"
+        android:src="@drawable/placeholder"
+        android:scaleType="centerCrop"/>
+</ScrollView>
